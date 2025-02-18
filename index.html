@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="div_one">
+            <h2>Payment form example</h2>
+        </div>
+        <div class="div_two">
+            <div class="div_two_top">
+                <h4>Some fields are missing</h4>
+            </div>
+            <div class="div_two_bottom flex">
+                <div class="div_two_bottom_one">
+                    <label for="input_card">Card #</label>
+                    <br>
+                    <input type="text" class="input_card" placeholder="XXXXXXXXXXXXXXXXXXX">
+                </div>
+                <div class="div_two_bottom_two">
+                    <label for="input_cvc">CVC #</label>
+                    <br>
+                    <input type="text" class="input_cvc" placeholder="0000">
+                </div>
+                <div class="div_two_bottom_three">
+                    <label for="input_amount">Amount</label>
+                    <br>
+                    <input type="text" class="input_amount" placeholder="Amount">
+                </div>
+            </div>
+        </div>
+        <div class="div_three flex">
+            <div class="div_three_left">
+                <fieldset>
+                    <label for="first_name">First Name</label>
+                    <br>
+                    <input type="text" id="first_name" >
+                </fieldset>
+                <fieldset>
+                    <label for="city">City</label>
+                    <br>
+                    <input type="text" id="city" >
+                </fieldset>
+                <fieldset>
+                    <label for="we_accept">We accept</label>
+                    <br>
+                    <div class="div_payment_methods">
+                        
+                        <input type="radio" id="master_card">
+                        <img src="./images/visa.png" alt="">
+                        <input type="radio" id="visa">
+                        <img src="./images/american-express.png" alt="">
+                        <input type="radio" id="wise">
+                        <img src="./images/round.png" alt="">
+                        <input type="radio" id="american_express">
+                        <img src="./images/visa.png" alt="">
+                    </div>
+                </fieldset>
+            </div>
+            <div class="div_three_right">
+                <fieldset>
+                    <label for="last_name">Last Name</label>
+                    <br>
+                    <input type="text" id="last_name" >
+                </fieldset>
+                <div class="div_three_right_middle flex">
+                    <fieldset class="div_three_right_middle_left">
+                        <label for="state">State</label>
+                        <br>
+                        <select name="" id="">
+                            <option value="">Pick a state</option>
+                            <option value="">Arizona</option>
+                            <option value="">New York</option>
+                            <option value="">California</option>
+                            <option value="">Washington</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="postal_code">Postal Code</label>
+                        <br>
+                        <input type="text" id="postal_code">
+                    </fieldset>
+                </div>
+                <fieldset>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea id="message">
+
+                    </textarea>
+                    <p>Add any notes here.</p>
+                </fieldset>
+            </div>
+        </div>
+        <div class="div_four flex">
+            <button class="btn btn_cancel">Cancel</button>
+            <button class="btn btn_send">Send</button>
+        </div>
+    </div>
+</body>
+</html>

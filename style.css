@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    /* border: 1px solid red; */
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, select{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+fieldset{
+    border: none;
+}
+
+.div_two_top{
+    background-color: #F8D7DA;
+    padding: 10px;
+    color: #7D2B32;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+}
+
+.div_two_bottom_one{
+    width: 45%;
+}
+.div_two_bottom_two{
+    width: 25%;
+    
+}
+.div_two_bottom_three{
+    width: 30%;
+
+}
+
+
+
+
+.div_three_left{
+    width: 49%;
+}
+.div_three_right{
+    width: 49%;
+}
+
+.div_payment_methods{
+    background-color: #6C757D;
+    width: fit-content;
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.div_payment_methods input:not(:first-child){
+   margin-left: 20px;
+}
+
+
+
+.div_three_right textarea{
+    width: 100%;
+    height: 100px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+
+.div_three_right select{
+    width: 100%
+}
+
+.div_three_right_middle_left{
+    width: 50%;
+}
+
+.div_four{
+    justify-content: flex-end;
+    background-color: #F7F7F7;
+    padding: 10px;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn_cancel{
+    background-color: #6C757D;
+}
+.btn_send{
+    background-color: #017BFF;
+}
